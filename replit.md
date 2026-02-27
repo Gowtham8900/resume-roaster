@@ -37,6 +37,13 @@ Users upload a resume PDF or paste text. The app extracts text, analyzes it with
 ## Running
 The workflow "Start application" runs `npm run dev` which starts Express + Vite dev server.
 
+## Theme
+- Dark black-blue color palette: background HSL 222 47% 5%, primary HSL 217 91% 60%
+- Dark cards (222 40% 8%) with subtle blue-tinted borders
+- Ambient blue glow orbs in background, gradient dividers
+- Semantic status colors (red/amber/green) with glow effects for score indicators
+- Fire "faaah" sound effect (Web Audio API synthesized) plays on score reveal and roast
+
 ## Key Design Decisions
 - All analysis is deterministic - same resume always gets same results
 - Roasts use seeded randomization based on text hash for consistency
